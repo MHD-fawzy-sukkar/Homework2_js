@@ -1,0 +1,157 @@
+#skip {
+    position: absolute;
+    top: -1000px;
+    /* left: -1000px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden; */
+}
+
+#skip:focus {
+    position: static;
+    /* width: auto;
+    height: auto; */
+}
+h1, h2 {
+    text-align: center;
+}
+.img-title{
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 1;
+    border: 3px solid;
+    border-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    transition-duration: 2s ;
+    transition-delay: .3s ;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-attachment: fixed;
+    background-color: rgb(45, 45, 45);
+    border: 30px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.main-page1 img:hover,
+.main-page2 img:hover {
+    border: 3px solid;
+    border-color: rgb(65, 65, 65);
+    border-radius: 20px;
+    transition-delay: .3s;
+}
+
+.top-nav {
+    background-color: rgb(250, 242, 231);
+}
+
+.top-nav ul {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.top-nav li {
+    padding: 10px 0;
+}
+
+.top-nav a {
+    font-size: 18px;
+    margin: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.top-nav .current {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.top-nav .current a {
+    color: white;
+}
+
+.top-nav li:hover {
+    background-color: blueviolet;
+    color: white;
+    opacity: 70%;
+    border-radius: 20px;
+    transition-property: background-color, opacity;
+    transition: .1s linear .1s;
+    transition-timing-function: linear;
+}
+
+.top-nav li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+.eCook {
+    float: left;
+    margin-right: 15px;
+}
+
+#into-eCook {
+    padding-top: 30px;
+}
+
+a[href^="https://www.mcdonalds.com/us/en-us.html"],
+a[href="https://texaschicken.com/"] {
+    background-color: rgb(228, 236, 175);
+}
+
+.restaurants {
+    display: flex;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.grid figure {
+    border: none;
+    opacity: 20%;
+}
+
+.grid figure:hover {
+    opacity: 100% ;
+    transition-property: opacity ; 
+    transition-duration: 2s ;
+    transition-delay: .3s ;
+}
+
+figure, img {
+    display: inline;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    margin: 0 15px;
+    background-color: transparent;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 232);
+}

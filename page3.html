@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="media/eCook.jpg">
+    <meta name="author" content="fawzy">
+    <meta name="description" content="Gallery of popular international dishes and fast food">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Css/template.css">
+    <script src="Js/script.js"></script>
+    <meta name="description" content="Gallery of popular international dishes">
+    <title>Food Gallery - Popular International Dishes</title>
+</head>
+<body>
+    <header>
+        <h1>Food Gallery</h1>
+        <p class="img-title">Hover over the img to show its description</p>
+    </header>
+    <main>
+        <section aria-labelledby="gallery-heading">
+            <h2 id="gallery-heading" class="sr-only">Popular Food Items</h2>
+            <div class="grid">
+                <figure id="img1">
+                    <img src="media/ChickenParmesan.jpg" alt="Chicken Parmesan with melted cheese and tomato sauce" onmouseover="setDescription(this.alt)">
+                    <figcaption>Chicken Parmesan</figcaption>
+                </figure>
+                <figure id="img2">
+                    <img src="media/Burger.jpg" alt="Juicy beef burger with cheese and vegetables" onmouseover="setDescription(this.alt)">
+                    <figcaption>Classic Burger</figcaption>
+                </figure>
+                <figure id="img3">
+                    <img src="media/Pizza.jpg" alt="Freshly baked pepperoni pizza" onmouseover="setDescription(this.alt)">
+                    <figcaption>Pepperoni Pizza</figcaption>
+                </figure>
+                <figure id="img4">
+                    <img src="media/friedChicken.jpg" alt="Crispy fried chicken pieces" onmouseover="setDescription(this.alt)">
+                    <figcaption>Fried Chicken</figcaption>
+                </figure>
+                <figure id="img5">
+                    <img src="media/Tacos.jpg" alt="Traditional Mexican tacos with various toppings" onmouseover="setDescription(this.alt)">
+                    <figcaption>Mexican Tacos</figcaption>
+                </figure>
+                <figure id="img6">
+                    <img src="media/Truffle.jpg" alt="Gourmet truffle dish" onmouseover="setDescription(this.alt)">
+                    <figcaption>Truffle Special</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2025 Fawzy. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="https://www.Facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
